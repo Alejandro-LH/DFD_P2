@@ -253,7 +253,7 @@ A.
 #### 1.1 Analisis. 
 Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371175-558b3ef9-2356-4e74-a604-807d2867d513.png)
+![image](https://user-images.githubusercontent.com/113395327/197405036-fac206f1-3619-44c2-8c64-3fc58a899b1a.png)
 #### 1.3 Prueba de escritorio 
 |c|n|A[c]=n|c+1|c<=9|
 |-|-|-|-|-|
@@ -300,7 +300,7 @@ A.
 #### 1.1 Analisis. 
 Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371228-81f5620c-c430-441a-914d-b95e89cc8838.png)
+![image](https://user-images.githubusercontent.com/113395327/197405073-a7e022a3-c0ef-46ed-b68a-4554b0d4759e.png)
 #### 1.3 Prueba de escritorio 
 |c|c>=0|A[10-c]=c|c--|
 |-|-|-|-|
@@ -324,7 +324,7 @@ A.
 ### Ejercicio 15. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (DO-WHILE)
 #### 1.1 Analisis. Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371239-9fe9c118-5a89-4bca-bb07-d322d9e11e9b.png)
+![image](https://user-images.githubusercontent.com/113395327/197405102-c906b7b0-0bff-4638-8fce-a677a3c4b865.png)
 #### 1.3 Prueba de escritorio 
 |c|A[10-c]=c|c--|c>=0|
 |-|-|-|-|
@@ -352,16 +352,17 @@ Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 ![image](https://user-images.githubusercontent.com/113395327/197382216-7f05339c-b12f-4d84-9978-8caa04a7534f.png)
 #### 1.3 Prueba de escritorio 
 |i|i<=9|n|n%2==0|A[i]=n|i+1|
+|-|-|-|-|-|-|
 |0|0<=9|8|8%2==0|A[0]=8|0+1|
-|1|1<=9|4|4%2==0|A[1]=n|1+1|
-|2|2<=9|2|2%2==0|A[2]=n|2+1|
-|3|3<=9|8|8%2==0|A[3]=n|3+1|
-|4|4<=9|2|4%2==0|A[4]=n|4+1|
-|5|5<=9|6|6%2==0|A[5]=n|5+1|
-|6|6<=9|6|6%2==0|A[6]=n|6+1|
-|7|7<=9|2|2%2==0|A[7]=n|7+1|
-|8|8<=9|4|4%2==0|A[8]=n|8+1|
-|9|9<=9|4|4%2==0|A[9]=n|9+1|
+|1|1<=9|4|4%2==0|A[1]=4|1+1|
+|2|2<=9|2|2%2==0|A[2]=2|2+1|
+|3|3<=9|8|8%2==0|A[3]=8|3+1|
+|4|4<=9|2|4%2==0|A[4]=2|4+1|
+|5|5<=9|6|6%2==0|A[5]=6|5+1|
+|6|6<=9|6|6%2==0|A[6]=6|6+1|
+|7|7<=9|2|2%2==0|A[7]=2|7+1|
+|8|8<=9|4|4%2==0|A[8]=4|8+1|
+|9|9<=9|4|4%2==0|A[9]=4|9+1|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
@@ -375,16 +376,17 @@ Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 ![image](https://user-images.githubusercontent.com/113395327/197382230-a9f1f438-30d8-44c4-9d04-78c41acc7111.png)
 #### 1.3 Prueba de escritorio 
 |c|c<=9|n|n%2==0|A[c]=n|c+1|
-|0|0<=9|8|8%2==0|A[0]=8|0+1|
-|1|1<=9|4|4%2==0|A[1]=n|1+1|
-|2|2<=9|2|2%2==0|A[2]=n|2+1|
-|3|3<=9|8|8%2==0|A[3]=n|3+1|
-|4|4<=9|2|4%2==0|A[4]=n|4+1|
-|5|5<=9|6|6%2==0|A[5]=n|5+1|
-|6|6<=9|6|6%2==0|A[6]=n|6+1|
-|7|7<=9|2|2%2==0|A[7]=n|7+1|
-|8|8<=9|4|4%2==0|A[8]=n|8+1|
-|9|9<=9|4|4%2==0|A[9]=n|9+1|
+|-|-|-|-|-|-|
+|0|0<=9|2|8%2==0|A[0]=2|0+1|
+|1|1<=9|4|4%2==0|A[1]=4|1+1|
+|2|2<=9|6|2%2==0|A[2]=6|2+1|
+|3|3<=9|8|8%2==0|A[3]=8|3+1|
+|4|4<=9|2|4%2==0|A[4]=2|4+1|
+|5|5<=9|4|6%2==0|A[5]=4|5+1|
+|6|6<=9|6|6%2==0|A[6]=6|6+1|
+|7|7<=9|8|2%2==0|A[7]=8|7+1|
+|8|8<=9|2|4%2==0|A[8]=2|8+1|
+|9|9<=9|4|4%2==0|A[9]=4|9+1|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
@@ -397,6 +399,18 @@ Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197382249-ea63e694-11ef-47fc-bf5b-5f4173ad7766.png)
 #### 1.3 Prueba de escritorio 
+|c|n|n%2==0|A[c]=n|c+1|c<=9|
+|-|-|-|-|-|-|
+|0|2|8%2==0|A[0]=2|0+1|0<=9|
+|1|2|4%2==0|A[1]=2|1+1|1<=9|
+|2|4|2%2==0|A[2]=4|2+1|2<=9|
+|3|4|8%2==0|A[3]=4|3+1|3<=9|
+|4|6|4%2==0|A[4]=6|4+1|4<=9|
+|5|6|6%2==0|A[5]=6|5+1|5<=9|
+|6|8|6%2==0|A[6]=8|6+1|6<=9|
+|7|8|2%2==0|A[7]=8|7+1|7<=9|
+|8|2|4%2==0|A[8]=2|8+1|8<=9|
+|9|2|4%2==0|A[9]=2|9+1|9<=9|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
