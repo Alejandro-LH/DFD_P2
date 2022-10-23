@@ -6,7 +6,7 @@ Sumar los valores del 1 al 10.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197370994-6bed5c67-531c-4b90-b360-dcf3b6189313.png)
 #### 1.3 Prueba de escritorio
-|s|i|i<=10|s+i|i++|Total|
+|s|i|i<=10|s=s+i|i++|Salida|
 |-|-|-|-|-|-|
 |0|1|1<=10|0+1|1+1||
 |1|2|2<=10|1+2|2+1||
@@ -19,79 +19,184 @@ Sumar los valores del 1 al 10.
 |36|9|9<=10|36+9|9+1||
 |45|10|10<=10|45+10||55|
 #### 1.4 Entradas.
+No tiene ninguna entrada.
 #### 1.5 Salidas.
+55.
 #### 1.6 Codigo.
 
 ### Ejercicio 2. Contar del 1 hasta el 10 y sumar los valores. (WHILE)
 #### 1.1 Analisis. 
+Sumar los valores del 1 al 10.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371014-25d910db-217f-4be7-a134-8186b1bd7169.png)
 #### 1.3 Prueba de escritorio 
+|s|c|c<=10|s=s+c|c=c++|Salida|
+|-|-|-|-|-|-|
+|0|1|1<=10|0+1|1+1||
+|1|2|2<=10|1+2|2+1||
+|3|3|3<=10|3+3|3+1||
+|6|4|4<=10|6+4|4+1||
+|10|5|5<=10|10+5|5+1||
+|15|6|6<=10|15+6|6+1||
+|21|7|7<=10|21+7|7+1||
+|28|8|8<=10|28+8|8+1||
+|36|9|9<=10|36+9|9+1||
+|45|10|10<=10|45+10||55|
 #### 1.4 Entradas.
+No tiene ninguna entrada.
 #### 1.5 Salidas.
+55.
 #### 1.6 Codigo.
 
 ### Ejercicio 3. Contar del 1 hasta el 10 y sumar los valores. (DO-WHILE)
 #### 1.1 Analisis. 
+Sumar los valores del 1 al 10.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371033-5e357668-80c6-4aa5-82c6-2f63da1f4b00.png)
 #### 1.3 Prueba de escritorio 
+|s|c|s=s+c|c=c++|c<=10|Salida|
+|-|-|-|-|-|-|
+|0|1|0+1|1+1|2<=10||
+|1|2|1+2|2+1|3<=10||
+|3|3|3+3|3+1|4<=10||
+|6|4|6+4|4+1|5<=10||
+|10|5|10+5|5+1|6<=10||
+|15|6|15+6|6+1|7<=10||
+|21|7|21+7|7+1|8<=10||
+|28|8|28+8|8+1|9<=10||
+|36|9|36+9|9+1|10<=10||
+|45|10|45+10|10+1||55|
 #### 1.4 Entradas.
+No tiene ninguna entrada.
 #### 1.5 Salidas.
+55.
 #### 1.6 Codigo.
 
 ### Ejercicio 4. Obtenga la suma de los primeros 5 numeros pares. (FOR)
 #### 1.1 Analisis. 
+Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371049-0a3fe20e-11ef-4136-94b4-0d2ad7275bc2.png)
 #### 1.3 Prueba de escritorio 
+|s|i|i<=5|s=s+ i * 2|i++|salida|
+|-|-|-|-|-|-|
+|0|1|1<=5|0+ 1 * 2|1+1||
+|2|2|2<=5|2+ 2 * 2|2+1||
+|6|3|3<=5|6+ 3 * 2|3+1||
+|12|4|4<=5|12+ 4 * 2|4+1||
+|20|5|5<=5|20+ 5 * 2||30|
 #### 1.4 Entradas.
+No tiene ninguna entrada.
 #### 1.5 Salidas.
+30.
 #### 1.6 Codigo.
 
 ### Ejercicio 5. Obtenga la suma de los primeros 5 numeros pares. (WHILE)
-#### 1.1 Analisis. 
+#### 1.1 Analisis.
+Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371086-b897262d-c456-4e95-849d-3b602713ecc2.png)
+![image](https://user-images.githubusercontent.com/113395327/197376056-1f5bf38f-fcdc-4ba7-ba43-4d5bbc69f330.png)
 #### 1.3 Prueba de escritorio 
+|s|c|c<=5|s=s+ i * 2|c++|salida|
+|-|-|-|-|-|-|
+|0|1|1<=5|0+ 1 * 2|1+1||
+|2|2|2<=5|2+ 2 * 2|2+1||
+|6|3|3<=5|6+ 3 * 2|3+1||
+|12|4|4<=5|12+ 4 * 2|4+1||
+|20|5|5<=5|20+ 5 * 2||30|
 #### 1.4 Entradas.
+No tiene ninguna entrada.
 #### 1.5 Salidas.
+30.
 #### 1.6 Codigo.
 
 ### Ejercicio 6. Obtenga la suma de los primeros 5 numeros pares. (DO-WHILE)
-#### 1.1 Analisis. 
+#### 1.1 Analisis.
+Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371095-d782ecb1-47c5-48e1-ba0e-9b6ca6c5f58a.png)
 #### 1.3 Prueba de escritorio 
+|s|c|s=s+ i * 2|c++|c<=5|salida|
+|-|-|-|-|-|-|
+|0|1|0+ 1 * 2|1+1|1<=5||
+|2|2|2+ 2 * 2|2+1|2<=5||
+|6|3|6+ 3 * 2|3+1|3<=5||
+|12|4|12+ 4 * 2|4+1|4<=5||
+|20|5|20+ 5 * 2|5+1|5<=5|30|
 #### 1.4 Entradas.
+No tiene ninguna entrada.
 #### 1.5 Salidas.
+30.
 #### 1.6 Codigo.
 
 ### Ejercicio 7. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (FOR)
 #### 1.1 Analisis. 
+Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371105-802d9912-fa57-4ce8-8704-1c34413d3964.png)
+![image](https://user-images.githubusercontent.com/113395327/197375862-9053d821-b232-4f03-be5d-44f91b13a0d3.png)
 #### 1.3 Prueba de escritorio 
+|n|i|i<=9|A[i]=n|i++|
+|-|-|-|-|-|
+|4|0|0<=9|A[0]=4|0+1|
+|4|1|1<=9|A[1]=4|1+1|
+|4|2|2<=9|A[2]=4|2+1|
+|4|3|3<=9|A[3]=4|3+1|
+|4|4|4<=9|A[4]=4|4+1|
+|4|5|5<=9|A[5]=4|5+1|
+|4|6|6<=9|A[6]=4|6+1|
+|4|7|7<=9|A[7]=4|7+1|
+|4|8|8<=9|A[8]=4|8+1|
+|4|9|9<=9|A[9]=4|9+1|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 8. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (WHILE)
 #### 1.1 Analisis. 
+Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371431-584ac139-e9fb-4b61-aae1-78a993b29b3c.png)
 #### 1.3 Prueba de escritorio 
+|n|c|c<=9|A[c]=n|c++|
+|-|-|-|-|-|
+|7|0|0<=9|A[0]=7|0+1|
+|7|1|1<=9|A[1]=7|1+1|
+|7|2|2<=9|A[2]=7|2+1|
+|7|3|3<=9|A[3]=7|3+1|
+|7|4|4<=9|A[4]=7|4+1|
+|7|5|5<=9|A[5]=7|5+1|
+|7|6|6<=9|A[6]=7|6+1|
+|7|7|7<=9|A[7]=7|7+1|
+|7|8|8<=9|A[8]=7|8+1|
+|7|9|9<=9|A[9]=7|9+1|
 #### 1.4 Entradas.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
 ### Ejercicio 9. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (DO-WHILE)
 #### 1.1 Analisis. 
+Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371138-2b568d8d-d449-4014-8ed2-640177c7aa3b.png)
 #### 1.3 Prueba de escritorio 
+|n|c|A[c]=n|c++|c<=9|
+|-|-|-|-|-|
+|5|0|0<=9|0+1|A[0]=5|
+|5|1|1<=9|1+1|A[1]=5|
+|5|2|2<=9|2+1|A[2]=5|
+|5|3|3<=9|3+1|A[3]=5|
+|5|4|4<=9|4+1|A[4]=5|
+|5|5|5<=9|5+1|A[5]=5|
+|5|6|6<=9|6+1|A[6]=5|
+|5|7|7<=9|7+1|A[7]=5|
+|5|8|8<=9|8+1|A[8]=5|
+|5|9|9<=9|9+1|A[9]=5|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 10. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
