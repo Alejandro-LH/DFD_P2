@@ -95,7 +95,7 @@ No tiene ninguna entrada.
 #### 1.1 Analisis.
 Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197376056-1f5bf38f-fcdc-4ba7-ba43-4d5bbc69f330.png)
+![image](https://user-images.githubusercontent.com/113395327/197402064-570cad02-fbe8-4d55-bdfc-3c025b1e2286.png)
 #### 1.3 Prueba de escritorio 
 |s|c|c<=5|s=s+ i * 2|c++|salida|
 |-|-|-|-|-|-|
@@ -114,7 +114,7 @@ No tiene ninguna entrada.
 #### 1.1 Analisis.
 Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371095-d782ecb1-47c5-48e1-ba0e-9b6ca6c5f58a.png)
+![image](https://user-images.githubusercontent.com/113395327/197402096-75bf182b-69be-40bc-b2b7-95e5d353861c.png)
 #### 1.3 Prueba de escritorio 
 |s|c|s=s+ i * 2|c++|c<=5|salida|
 |-|-|-|-|-|-|
@@ -133,7 +133,7 @@ No tiene ninguna entrada.
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197375862-9053d821-b232-4f03-be5d-44f91b13a0d3.png)
+![image](https://user-images.githubusercontent.com/113395327/197402229-8076c2bc-525f-445e-8f57-468b827f1eeb.png)
 #### 1.3 Prueba de escritorio 
 |n|i|i<=9|A[i]=n|i++|
 |-|-|-|-|-|
@@ -157,7 +157,7 @@ A.
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371431-584ac139-e9fb-4b61-aae1-78a993b29b3c.png)
+![image](https://user-images.githubusercontent.com/113395327/197402293-bd4cc849-581f-4e8c-8638-5a9776826320.png)
 #### 1.3 Prueba de escritorio 
 |n|c|c<=9|A[c]=n|c++|
 |-|-|-|-|-|
@@ -181,7 +181,7 @@ A.
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371138-2b568d8d-d449-4014-8ed2-640177c7aa3b.png)
+![image](https://user-images.githubusercontent.com/113395327/197402325-1e3f53a4-fba0-4296-9012-44f6f9550e39.png)
 #### 1.3 Prueba de escritorio 
 |n|c|A[c]=n|c++|c<=9|
 |-|-|-|-|-|
@@ -229,7 +229,7 @@ A.
 #### 1.1 Analisis. 
 Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371169-a650f814-37d8-4f43-9b12-1af2ed7687f7.png)
+![image](https://user-images.githubusercontent.com/113395327/197402477-524b88d2-dcec-414e-8015-489a0de963db.png)
 #### 1.3 Prueba de escritorio 
 |c|c<=9|n|A[c]=n|c+1|
 |-|-|-|-|-|
