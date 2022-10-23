@@ -28,7 +28,7 @@ No tiene ninguna entrada.
 #### 1.1 Analisis. 
 Sumar los valores del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371014-25d910db-217f-4be7-a134-8186b1bd7169.png)
+![image](https://user-images.githubusercontent.com/113395327/197401601-6bc0d83e-df63-4273-ad29-1fccf8e1cf54.png)
 #### 1.3 Prueba de escritorio 
 |s|c|c<=10|s=s+c|c=c++|Salida|
 |-|-|-|-|-|-|
@@ -52,7 +52,7 @@ No tiene ninguna entrada.
 #### 1.1 Analisis. 
 Sumar los valores del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371033-5e357668-80c6-4aa5-82c6-2f63da1f4b00.png)
+![image](https://user-images.githubusercontent.com/113395327/197401840-390bcb1a-f2cb-4799-8c83-3978dd0ee754.png)
 #### 1.3 Prueba de escritorio 
 |s|c|s=s+c|c=c++|c<=10|Salida|
 |-|-|-|-|-|-|
