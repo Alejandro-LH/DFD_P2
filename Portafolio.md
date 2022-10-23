@@ -418,11 +418,32 @@ A.
 #### 1.6 Codigo.
 
 ### Ejercicio 19. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (FOR)
-#### 1.1 Analisis. 
+#### 1.1 Analisis.
+Sumar las calificaiones de los alumnos aprobados y sacarles el promedio, despues contar la cantidad de reprobados mayores a 5.
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197411505-2a259b71-368e-4ae0-8399-d6c445b9b111.png)
 #### 1.3 Prueba de escritorio 
+|i|i<=14|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i+1|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|P_A=S_A/C_A|P_A|C_R|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|0|0<=14|7|7>=0|7<=10|A[0]=7|0+1|7<5|0+7|0+1|||||
+|1|1<=14|6|6>=0|6<=10|A[1]=6|1+1|6<5|7+6|1+1|||||
+|2|2<=14|3|3>=0|3<=10|A[2]=3|2+1||||0+1||||
+|3|3<=14|9|9>=0|9<=10|A[3]=9|3+1|9<5|13+9|2+1|||||
+|4|4<=14|9|9>=0|9<=10|A[4]=9|4+1|9<5|22+9|3+1|||||
+|5|5<=14|10|10>=0|10<=10|A[5]=10|5+1|10<5|31+10|4+1|||||
+|6|6<=14|5|5>=0|5<=10|A[6]=5|6+1||||1+1||||
+|7|7<=14|10|10>=0|10<=10|A[7]=10|7+1|10<5|41+10|5+1|||||
+|8|8<=14|8|8>=0|8<=10|A[8]=8|8+1|8<5|51+8|6+1|||||
+|9|9<=14|7|7>=0|7<=10|A[9]=7|9+1|7<5|59+7|7+1|||||
+|10|10<=14|9|9>=0|9<=10|A[10]=9|10+1|9<5|66+9|8+1|||||
+|11|11<=14|4|4>=0|4<=10|A[11]=4|11+1||||2+1||||
+|12|12<=14|10|10>=0|10<=10|A[12]=10|12+1|10<5|75+10|9+1|||||
+|13|13<=14|9|9>=0|9<=10|A[13]=9|13+1|9<5|85+9|10+1|||||
+|14|14<=14|8|8>=0|8<=10|A[14]=8|14+1|8<5|94+8|11+1||0=102/12|8.5|3|
 #### 1.4 Entradas.
+Cal.
 #### 1.5 Salidas.
+P_A; C_R.
 #### 1.6 Codigo.
 
 ### Ejercicio 20. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (WHILE)
