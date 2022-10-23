@@ -203,6 +203,7 @@ A.
 
 ### Ejercicio 10. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
 #### 1.1 Analisis. 
+Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371156-4295ab1d-e995-4f38-8338-0bdcdac36c00.png)
 #### 1.3 Prueba de escritorio 
@@ -226,6 +227,7 @@ A.
 
 ### Ejercicio 11. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
 #### 1.1 Analisis. 
+Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371169-a650f814-37d8-4f43-9b12-1af2ed7687f7.png)
 #### 1.3 Prueba de escritorio 
@@ -249,6 +251,7 @@ A.
 
 ### Ejercicio 12. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
 #### 1.1 Analisis. 
+Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371175-558b3ef9-2356-4e74-a604-807d2867d513.png)
 #### 1.3 Prueba de escritorio 
@@ -270,56 +273,134 @@ A.
 
 ### Ejercicio 13. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (FOR)
 #### 1.1 Analisis. 
+Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371211-333c3251-eb1f-40f0-b149-1e12870d3be7.png)
 #### 1.3 Prueba de escritorio 
+|i|i>=0|A[10-i]=i|i--|
+|-|-|-|-|
+|10|10>=0|A[10-10]=0|10-1|
+|9|9>=0|A[10-9]=1|9-1|
+|8|8>=0|A[10-8]=2|8-1|
+|7|7>=0|A[10-7]=3|7-1|
+|6|6>=0|A[10-6]=4|6-1|
+|5|5>=0|A[10-5]=5|5-1|
+|4|4>=0|A[10-4]=6|4-1|
+|3|3>=0|A[10-3]=7|3-1|
+|2|2>=0|A[10-2]=8|2-1|
+|1|1>=0|A[10-1]=9|1-1|
+|0|0>=0|A[10-0]=10||
 #### 1.4 Entradas.
+No tiene entradas.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 14. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (WHILE)
 #### 1.1 Analisis. 
+Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371228-81f5620c-c430-441a-914d-b95e89cc8838.png)
 #### 1.3 Prueba de escritorio 
+|c|c>=0|A[10-c]=c|c--|
+|-|-|-|-|
+|10|10>=0|A[10-10]=0|10-1|
+|9|9>=0|A[10-9]=1|9-1|
+|8|8>=0|A[10-8]=2|8-1|
+|7|7>=0|A[10-7]=3|7-1|
+|6|6>=0|A[10-6]=4|6-1|
+|5|5>=0|A[10-5]=5|5-1|
+|4|4>=0|A[10-4]=6|4-1|
+|3|3>=0|A[10-3]=7|3-1|
+|2|2>=0|A[10-2]=8|2-1|
+|1|1>=0|A[10-1]=9|1-1|
+|0|0>=0|A[10-0]=10||
 #### 1.4 Entradas.
+No tiene entradas.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 15. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (DO-WHILE)
-#### 1.1 Analisis. 
+#### 1.1 Analisis. Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371239-9fe9c118-5a89-4bca-bb07-d322d9e11e9b.png)
 #### 1.3 Prueba de escritorio 
+|c|A[10-c]=c|c--|c>=0|
+|-|-|-|-|
+|10|A[10-10]=0|10-1|10>=0|
+|9|A[10-9]=1|9-1|9>=0|
+|8|A[10-8]=2|8-1|8>=0|
+|7|A[10-7]=3|7-1|7>=0|
+|6|A[10-6]=4|6-1|6>=0|
+|5|A[10-5]=5|5-1|5>=0|
+|4|A[10-4]=6|4-1|4>=0|
+|3|A[10-3]=7|3-1|3>=0|
+|2|A[10-2]=8|2-1|2>=0|
+|1|A[10-1]=9|1-1|1>=0|
+|0|A[10-0]=10||0>=0|
 #### 1.4 Entradas.
+No tiene entradas.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
-### Ejercicio 16. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar toddos. (FOR)
+### Ejercicio 16. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (FOR)
 #### 1.1 Analisis. 
+Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371248-0ba2a2e8-6a34-493d-92b8-80ce8bcc8325.png)
+![image](https://user-images.githubusercontent.com/113395327/197382216-7f05339c-b12f-4d84-9978-8caa04a7534f.png)
 #### 1.3 Prueba de escritorio 
+|i|i<=9|n|n%2==0|A[i]=n|i+1|
+|0|0<=9|8|8%2==0|A[0]=8|0+1|
+|1|1<=9|4|4%2==0|A[1]=n|1+1|
+|2|2<=9|2|2%2==0|A[2]=n|2+1|
+|3|3<=9|8|8%2==0|A[3]=n|3+1|
+|4|4<=9|2|4%2==0|A[4]=n|4+1|
+|5|5<=9|6|6%2==0|A[5]=n|5+1|
+|6|6<=9|6|6%2==0|A[6]=n|6+1|
+|7|7<=9|2|2%2==0|A[7]=n|7+1|
+|8|8<=9|4|4%2==0|A[8]=n|8+1|
+|9|9<=9|4|4%2==0|A[9]=n|9+1|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
-### Ejercicio 17. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar toddos. (WHILE)
+### Ejercicio 17. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (WHILE)
 #### 1.1 Analisis. 
+Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371469-0f929a9e-ad12-4f4b-9bab-32e05456f57f.png)
+![image](https://user-images.githubusercontent.com/113395327/197382230-a9f1f438-30d8-44c4-9d04-78c41acc7111.png)
 #### 1.3 Prueba de escritorio 
+|c|c<=9|n|n%2==0|A[c]=n|c+1|
+|0|0<=9|8|8%2==0|A[0]=8|0+1|
+|1|1<=9|4|4%2==0|A[1]=n|1+1|
+|2|2<=9|2|2%2==0|A[2]=n|2+1|
+|3|3<=9|8|8%2==0|A[3]=n|3+1|
+|4|4<=9|2|4%2==0|A[4]=n|4+1|
+|5|5<=9|6|6%2==0|A[5]=n|5+1|
+|6|6<=9|6|6%2==0|A[6]=n|6+1|
+|7|7<=9|2|2%2==0|A[7]=n|7+1|
+|8|8<=9|4|4%2==0|A[8]=n|8+1|
+|9|9<=9|4|4%2==0|A[9]=n|9+1|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
-### Ejercicio 18. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar toddos. (DO-WHILE)
+### Ejercicio 18. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (DO-WHILE)
 #### 1.1 Analisis. 
+Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371478-de34d89b-acfa-4874-a7a5-efd055d10f43.png)
+![image](https://user-images.githubusercontent.com/113395327/197382249-ea63e694-11ef-47fc-bf5b-5f4173ad7766.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 19. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (FOR)
