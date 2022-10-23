@@ -17,7 +17,7 @@ Sumar los valores del 1 al 10.
 |21|7|7<=10|21+7|7+1||
 |28|8|8<=10|28+8|8+1||
 |36|9|9<=10|36+9|9+1||
-|45|10|10<=10|45+10||55|
+|45|10|10<=10|45+10|10+1|55|
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
@@ -41,7 +41,7 @@ Sumar los valores del 1 al 10.
 |21|7|7<=10|21+7|7+1||
 |28|8|8<=10|28+8|8+1||
 |36|9|9<=10|36+9|9+1||
-|45|10|10<=10|45+10||55|
+|45|10|10<=10|45+10|10+1|55|
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
@@ -84,7 +84,7 @@ Sumar los numeros pares del 1 al 10.
 |2|2|2<=5|2+ 2 * 2|2+1||
 |6|3|3<=5|6+ 3 * 2|3+1||
 |12|4|4<=5|12+ 4 * 2|4+1||
-|20|5|5<=5|20+ 5 * 2||30|
+|20|5|5<=5|20+ 5 * 2|5+1|30|
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
@@ -103,7 +103,7 @@ Sumar los numeros pares del 1 al 10.
 |2|2|2<=5|2+ 2 * 2|2+1||
 |6|3|3<=5|6+ 3 * 2|3+1||
 |12|4|4<=5|12+ 4 * 2|4+1||
-|20|5|5<=5|20+ 5 * 2||30|
+|20|5|5<=5|20+ 5 * 2|5+1|30|
 #### 1.4 Entradas.
 No tiene ninguna entrada.
 #### 1.5 Salidas.
@@ -172,7 +172,9 @@ Debemos almacenar en 10 espacios el numero n.
 |7|8|8<=9|A[8]=7|8+1|
 |7|9|9<=9|A[9]=7|9+1|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 9. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (DO-WHILE)
@@ -204,8 +206,22 @@ A.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371156-4295ab1d-e995-4f38-8338-0bdcdac36c00.png)
 #### 1.3 Prueba de escritorio 
+|i|i<=9|n|A[i]=n|i+1|
+|-|-|-|-|-|
+|0|0<=9|6|A[0]=6|0+1|
+|1|1<=9|4|A[1]=4|1+1|
+|2|2<=9|8|A[2]=8|2+1|
+|3|3<=9|1|A[3]=1|3+1|
+|4|4<=9|4|A[4]=4|4+1|
+|5|5<=9|9|A[5]=9|5+1|
+|6|6<=9|2|A[6]=2|6+1|
+|7|7<=9|4|A[7]=4|7+1|
+|8|8<=9|3|A[8]=3|8+1|
+|9|9<=9|5|A[9]=5|9+1|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 11. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
@@ -213,8 +229,22 @@ A.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371169-a650f814-37d8-4f43-9b12-1af2ed7687f7.png)
 #### 1.3 Prueba de escritorio 
+|c|c<=9|n|A[c]=n|c+1|
+|-|-|-|-|-|
+|0|0<=9|4|A[0]=4|0+1|
+|1|1<=9|8|A[1]=8|1+1|
+|2|2<=9|9|A[2]=9|2+1|
+|3|3<=9|2|A[3]=2|3+1|
+|4|4<=9|4|A[4]=4|4+1|
+|5|5<=9|6|A[5]=6|5+1|
+|6|6<=9|1|A[6]=1|6+1|
+|7|7<=9|8|A[7]=8|7+1|
+|8|8<=9|7|A[8]=7|8+1|
+|9|9<=9|9|A[9]=9|9+1|
 #### 1.4 Entradas.
+n.
 #### 1.5 Salidas.
+A.
 #### 1.6 Codigo.
 
 ### Ejercicio 12. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
@@ -222,6 +252,18 @@ A.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197371175-558b3ef9-2356-4e74-a604-807d2867d513.png)
 #### 1.3 Prueba de escritorio 
+|c|n|A[c]=n|c+1|c<=9|
+|-|-|-|-|-|
+|0|4|A[0]=4|0+1|0<=9|
+|1|8|A[1]=8|1+1|1<=9|
+|2|9|A[2]=9|2+1|2<=9|
+|3|2|A[3]=2|3+1|3<=9|
+|4|4|A[4]=4|4+1|4<=9|
+|5|6|A[5]=6|5+1|5<=9|
+|6|1|A[6]=1|6+1|6<=9|
+|7|8|A[7]=8|7+1|7<=9|
+|8|7|A[8]=7|8+1|8<=9|
+|9|9|A[9]=9|9+1||
 #### 1.4 Entradas.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
