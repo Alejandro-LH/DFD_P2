@@ -451,7 +451,7 @@ P_A; C_R.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197417109-b6f776ed-9408-4a55-ab89-fb0fe7bf07c2.png)
 #### 1.3 Prueba de escritorio 
-|i|i<=14|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i+1|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|P_A=S_A/C_A|P_A|C_R|
+|C_Almn|C_Almn<=14|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i+1|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|P_A=S_A/C_A|P_A|C_R|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |0|0<=14|6|6>=0|6<=10|A[0]=6|0+1|6<5|0+6|0+1|||||
 |1|1<=14|6|6>=0|6<=10|A[1]=6|1+1|6<5|7+6|1+1|||||
@@ -479,7 +479,9 @@ P_A; C_R.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197417134-8b3fa286-832c-4ac4-a678-80d6132d225d.png)
 #### 1.3 Prueba de escritorio 
-
+|C_Almn|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i+1|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|C_Almn<=14|P_A=S_A/C_A|P_A|C_R|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|C_Almn|Cal|Cal>=LI|Cal<=LS|A[i]=Cal|i+1|Cal<5|S_A=S_A+Cal|C_A=C_A+1|C_R++|C_Almn<=14|P_A=S_A/C_A|P_A|C_R|
 #### 1.4 Entradas.
 Cal.
 #### 1.5 Salidas.
