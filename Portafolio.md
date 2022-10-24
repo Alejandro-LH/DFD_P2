@@ -505,6 +505,7 @@ P_A; C_R.
 ### Ejercicio 22. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197482355-9109f57f-e07a-47fa-9097-ef04e9e0a386.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -513,6 +514,7 @@ P_A; C_R.
 ### Ejercicio 23. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197482559-3f9d511c-a368-4b92-8f2b-b4ff3bd22178.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -521,6 +523,7 @@ P_A; C_R.
 ### Ejercicio 24. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197482488-8151b935-fc88-4412-bd5f-091a6f20aa66.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -529,6 +532,7 @@ P_A; C_R.
 ### Ejercicio 25. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197482672-6eed242b-d874-4e2c-8799-0594adfa0c0f.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -537,6 +541,7 @@ P_A; C_R.
 ### Ejercicio 26. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197482760-4bd30e29-9b13-4fe5-9390-3aa8e01f6411.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -545,6 +550,7 @@ P_A; C_R.
 ### Ejercicio 27. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197482934-840febba-0be4-4fe0-9c27-281d562999aa.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -553,6 +559,7 @@ P_A; C_R.
 ### Ejercicio 28. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197483050-199efa86-cc20-4e8c-ab87-c507e6c93426.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -561,6 +568,7 @@ P_A; C_R.
 ### Ejercicio 29. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197483146-55c5bd23-3545-4372-b004-843558fc1981.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
@@ -569,6 +577,25 @@ P_A; C_R.
 ### Ejercicio 30. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197483758-f4ea6e26-8ab1-4dd7-8bc4-37658cb6fc93.png)
+#### 1.3 Prueba de escritorio 
+#### 1.4 Entradas.
+#### 1.5 Salidas.
+#### 1.6 Codigo.
+
+### Ejercicio 31. 
+#### 1.1 Analisis. 
+#### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197483811-31f1c1c8-3223-41b1-a71a-02bd0ecb54dc.png)
+#### 1.3 Prueba de escritorio 
+#### 1.4 Entradas.
+#### 1.5 Salidas.
+#### 1.6 Codigo.
+
+### Ejercicio 32. 
+#### 1.1 Analisis. 
+#### 1.2 DFD
+![image](https://user-images.githubusercontent.com/113395327/197483869-000b9f97-54a5-4fa8-b514-fc84528984c0.png)
 #### 1.3 Prueba de escritorio 
 #### 1.4 Entradas.
 #### 1.5 Salidas.
