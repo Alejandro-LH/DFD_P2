@@ -597,6 +597,13 @@ P_A; C_R.
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197483869-000b9f97-54a5-4fa8-b514-fc84528984c0.png)
 #### 1.3 Prueba de escritorio 
+|i|i<=5|i++|j|j<i|j++|salida|
+|-|-|-|-|-|-|-|
+|1|1<=5|1+1|1|1<1|j++||
+|2|2<=5|2+1|2|2<1|j++||
+|3|3<=5|3+1|3|3<1|j++||
+|4|4<=5|4+1|4|4<1|j++||
+|5|5<=5|5+1|5|5<1|j++|salida|
 #### 1.4 Entradas.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
