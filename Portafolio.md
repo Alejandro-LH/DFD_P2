@@ -1,10 +1,10 @@
 # Presentacion 
 ## Problemas resueltos en clase con DFD
-### Ejercicio 1. Contar del 1 hasta el 10 y sumar los valores. (FOR)
+### Ejercicio 1 Contar del 1 hasta el 10 y sumar los valores. (FOR)
 #### 1.1 Analisis. 
-Sumar los valores del 1 al 10.
+contar del 1 al 10 en una condicion de termino y sumarlos en un proceso.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197370994-6bed5c67-531c-4b90-b360-dcf3b6189313.png)
+![1 (for)](https://user-images.githubusercontent.com/113395327/197660653-0f384b1e-6c99-4a26-8613-03f91649be32.png)
 #### 1.3 Prueba de escritorio
 |s|i|i<=10|s=s+i|i++|Salida|
 |-|-|-|-|-|-|
@@ -23,12 +23,12 @@ No tiene ninguna entrada.
 #### 1.5 Salidas.
 55.
 #### 1.6 Codigo.
-
-### Ejercicio 2. Contar del 1 hasta el 10 y sumar los valores. (WHILE)
+    
+### Ejercicio 1 Contar del 1 hasta el 10 y sumar los valores. (WHILE)
 #### 1.1 Analisis. 
-Sumar los valores del 1 al 10.
+Utilizar un proceso para las variables de suma y contados, despues con una condicion validar la suma de los valores del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197401601-6bc0d83e-df63-4273-ad29-1fccf8e1cf54.png)
+![1 (While)](https://user-images.githubusercontent.com/113395327/197660681-49bfc8f7-5ed8-49f0-988d-490046d78f77.png)
 #### 1.3 Prueba de escritorio 
 |s|c|c<=10|s=s+c|c=c++|Salida|
 |-|-|-|-|-|-|
@@ -48,11 +48,11 @@ No tiene ninguna entrada.
 55.
 #### 1.6 Codigo.
 
-### Ejercicio 3. Contar del 1 hasta el 10 y sumar los valores. (DO-WHILE)
+### Ejercicio 1 Contar del 1 hasta el 10 y sumar los valores. (DO-WHILE)
 #### 1.1 Analisis. 
-Sumar los valores del 1 al 10.
+En Utilizar un proceso para las varibles de contador y suma, despues con otro proceso hacer la suma, y luego el contador para validar las veces 
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197401840-390bcb1a-f2cb-4799-8c83-3978dd0ee754.png)
+![1 (Do-While)](https://user-images.githubusercontent.com/113395327/197660698-c39d7d57-68ec-4d22-b9dc-0f7546518bfd.png)
 #### 1.3 Prueba de escritorio 
 |s|c|s=s+c|c=c++|c<=10|Salida|
 |-|-|-|-|-|-|
@@ -72,11 +72,11 @@ No tiene ninguna entrada.
 55.
 #### 1.6 Codigo.
 
-### Ejercicio 4. Obtenga la suma de los primeros 5 numeros pares. (FOR)
+### Ejercicio 2 Obtenga la suma de los primeros 5 numeros pares. (FOR)
 #### 1.1 Analisis. 
 Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371049-0a3fe20e-11ef-4136-94b4-0d2ad7275bc2.png)
+![2 (for)](https://user-images.githubusercontent.com/113395327/197660736-9a97e4f3-b28f-404a-9f6d-fd035279e3b0.png)
 #### 1.3 Prueba de escritorio 
 |s|i|i<=5|s=s+ i * 2|i++|salida|
 |-|-|-|-|-|-|
@@ -91,11 +91,11 @@ No tiene ninguna entrada.
 30.
 #### 1.6 Codigo.
 
-### Ejercicio 5. Obtenga la suma de los primeros 5 numeros pares. (WHILE)
+### Ejercicio 2 Obtenga la suma de los primeros 5 numeros pares. (WHILE)
 #### 1.1 Analisis.
 Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402064-570cad02-fbe8-4d55-bdfc-3c025b1e2286.png)
+![2 (While)](https://user-images.githubusercontent.com/113395327/197660764-11511194-e0b1-4a00-aae3-68b54143865d.png)
 #### 1.3 Prueba de escritorio 
 |s|c|c<=5|s=s+ i * 2|c++|salida|
 |-|-|-|-|-|-|
@@ -110,11 +110,11 @@ No tiene ninguna entrada.
 30.
 #### 1.6 Codigo.
 
-### Ejercicio 6. Obtenga la suma de los primeros 5 numeros pares. (DO-WHILE)
+### Ejercicio 2 Obtenga la suma de los primeros 5 numeros pares. (DO-WHILE)
 #### 1.1 Analisis.
 Sumar los numeros pares del 1 al 10.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402096-75bf182b-69be-40bc-b2b7-95e5d353861c.png)
+![2 (Do-While)](https://user-images.githubusercontent.com/113395327/197660837-9c64bda6-9519-44c1-b2ae-735a8ee688c1.png)
 #### 1.3 Prueba de escritorio 
 |s|c|s=s+ i * 2|c++|c<=5|salida|
 |-|-|-|-|-|-|
@@ -129,11 +129,11 @@ No tiene ninguna entrada.
 30.
 #### 1.6 Codigo.
 
-### Ejercicio 7. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (FOR)
+### Ejercicio 3 Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (FOR)
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402229-8076c2bc-525f-445e-8f57-468b827f1eeb.png)
+![3 (for)](https://user-images.githubusercontent.com/113395327/197660869-62d12335-0cbe-471c-87e0-1b17ae9c1cf6.png)
 #### 1.3 Prueba de escritorio 
 |n|i|i<=9|A[i]=n|i++|
 |-|-|-|-|-|
@@ -153,11 +153,11 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 8. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (WHILE)
+### Ejercicio 3 Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (WHILE)
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402293-bd4cc849-581f-4e8c-8638-5a9776826320.png)
+![3 (While)](https://user-images.githubusercontent.com/113395327/197660901-d4ae6f43-b708-4ab3-9157-f1160f8b80af.png)
 #### 1.3 Prueba de escritorio 
 |n|c|c<=9|A[c]=n|c++|
 |-|-|-|-|-|
@@ -177,11 +177,11 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 9. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (DO-WHILE)
+### Ejercicio 3 Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (DO-WHILE)
 #### 1.1 Analisis. 
 Debemos almacenar en 10 espacios el numero n.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402325-1e3f53a4-fba0-4296-9012-44f6f9550e39.png)
+![3 (Do-While)](https://user-images.githubusercontent.com/113395327/197660916-b013d497-3144-4e52-a095-cefebc079a15.png)
 #### 1.3 Prueba de escritorio 
 |n|c|A[c]=n|c++|c<=9|
 |-|-|-|-|-|
@@ -201,11 +201,11 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 10. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
+### Ejercicio 4 Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
 #### 1.1 Analisis. 
 Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371156-4295ab1d-e995-4f38-8338-0bdcdac36c00.png)
+![4 (for)](https://user-images.githubusercontent.com/113395327/197660974-b31154a6-6d29-4622-815a-8f9d47ea0af1.png)
 #### 1.3 Prueba de escritorio 
 |i|i<=9|n|A[i]=n|i+1|
 |-|-|-|-|-|
@@ -225,11 +225,11 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 11. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
+### Ejercicio 4 Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
 #### 1.1 Analisis. 
 Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197402477-524b88d2-dcec-414e-8015-489a0de963db.png)
+![4 (While)](https://user-images.githubusercontent.com/113395327/197661015-dfd2ed45-979d-4fe4-a6bb-a96e2114497e.png)
 #### 1.3 Prueba de escritorio 
 |c|c<=9|n|A[c]=n|c+1|
 |-|-|-|-|-|
@@ -249,11 +249,11 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 12. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
+### Ejercicio 4 Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
 #### 1.1 Analisis. 
 Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197405036-fac206f1-3619-44c2-8c64-3fc58a899b1a.png)
+![4 (Do-While)](https://user-images.githubusercontent.com/113395327/197661041-c8b0f699-fc49-4158-aa3a-0135523b7921.png)
 #### 1.3 Prueba de escritorio 
 |c|n|A[c]=n|c+1|c<=9|
 |-|-|-|-|-|
@@ -271,11 +271,11 @@ Almacenar en 10 espacios diferentes numeros leidos del teclado.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 13. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (FOR)
+### Ejercicio 5 Almacene un contador negativo en un vector, el conteo es de 10 a 0. (FOR)
 #### 1.1 Analisis. 
 Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197371211-333c3251-eb1f-40f0-b149-1e12870d3be7.png)
+![5 (for)](https://user-images.githubusercontent.com/113395327/197661066-18a0fe4e-25fa-49df-bd17-369867a17e66.png)
 #### 1.3 Prueba de escritorio 
 |i|i>=0|A[10-i]=i|i--|
 |-|-|-|-|
@@ -296,11 +296,11 @@ No tiene entradas.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 14. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (WHILE)
+### Ejercicio 5 Almacene un contador negativo en un vector, el conteo es de 10 a 0. (WHILE)
 #### 1.1 Analisis. 
 Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197405073-a7e022a3-c0ef-46ed-b68a-4554b0d4759e.png)
+![5 (While)](https://user-images.githubusercontent.com/113395327/197661093-1e30accc-8788-4e69-99fa-6ae602d16809.png)
 #### 1.3 Prueba de escritorio 
 |c|c>=0|A[10-c]=c|c--|
 |-|-|-|-|
@@ -321,10 +321,11 @@ No tiene entradas.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 15. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (DO-WHILE)
+### Ejercicio 5 Almacene un contador negativo en un vector, el conteo es de 10 a 0. (DO-WHILE)
 #### 1.1 Analisis. Almacenar en 10 espacios un conteo regresivo del 10 al 0.
 #### 1.2 DFD
-![image](https://user-images.githubusercontent.com/113395327/197405102-c906b7b0-0bff-4638-8fce-a677a3c4b865.png)
+![5 (Do-While)](https://user-images.githubusercontent.com/113395327/197661111-4c8e2d90-88c6-4952-a8f8-ebe2f856e4ad.png)
+
 #### 1.3 Prueba de escritorio 
 |c|A[10-c]=c|c--|c>=0|
 |-|-|-|-|
@@ -345,7 +346,7 @@ No tiene entradas.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 16. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (FOR)
+### Ejercicio 6 Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (FOR)
 #### 1.1 Analisis. 
 Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
@@ -369,7 +370,7 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 17. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (WHILE)
+### Ejercicio 6 Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (WHILE)
 #### 1.1 Analisis. 
 Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
@@ -393,7 +394,7 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 18. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (DO-WHILE)
+### Ejercicio 6 Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (DO-WHILE)
 #### 1.1 Analisis. 
 Tenemos que insertar numero pares y almacenarlos en 10 espacios.
 #### 1.2 DFD
@@ -417,7 +418,7 @@ n.
 A.
 #### 1.6 Codigo.
 
-### Ejercicio 19. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (FOR)
+### Ejercicio 7 Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (FOR)
 #### 1.1 Analisis.
 Sumar las calificaiones de los alumnos aprobados y sacarles el promedio, despues contar la cantidad de reprobados mayores a 5.
 #### 1.2 DFD
@@ -446,7 +447,7 @@ Cal.
 P_A; C_R.
 #### 1.6 Codigo.
 
-### Ejercicio 20. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (WHILE)
+### Ejercicio 7 Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (WHILE)
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197417109-b6f776ed-9408-4a55-ab89-fb0fe7bf07c2.png)
@@ -474,7 +475,7 @@ Cal.
 P_A; C_R.
 #### 1.6 Codigo.
 
-### Ejercicio 21. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (DO-WHILE)
+### Ejercicio 7 Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (DO-WHILE)
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197417134-8b3fa286-832c-4ac4-a678-80d6132d225d.png)
@@ -502,7 +503,7 @@ Cal.
 P_A; C_R.
 #### 1.6 Codigo.
 
-### Ejercicio 22. 
+### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197482355-9109f57f-e07a-47fa-9097-ef04e9e0a386.png)
@@ -511,7 +512,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 23. 
+### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197482559-3f9d511c-a368-4b92-8f2b-b4ff3bd22178.png)
@@ -520,7 +521,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 24. 
+### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197482488-8151b935-fc88-4412-bd5f-091a6f20aa66.png)
@@ -529,7 +530,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 25. 
+### Ejercicio 9.
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197482672-6eed242b-d874-4e2c-8799-0594adfa0c0f.png)
@@ -538,7 +539,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 26. 
+### Ejercicio 9. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197482760-4bd30e29-9b13-4fe5-9390-3aa8e01f6411.png)
@@ -547,7 +548,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 27. 
+### Ejercicio 9.
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197482934-840febba-0be4-4fe0-9c27-281d562999aa.png)
@@ -556,16 +557,19 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 28. 
+### Ejercicio 10. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197483050-199efa86-cc20-4e8c-ab87-c507e6c93426.png)
 #### 1.3 Prueba de escritorio 
+|n1|n2|n1>n2|salida|
+|-|-|-|-|
+|||||
 #### 1.4 Entradas.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 29. 
+### Ejercicio 11. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197483146-55c5bd23-3545-4372-b004-843558fc1981.png)
@@ -574,7 +578,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 30. 
+### Ejercicio 12.
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197483758-f4ea6e26-8ab1-4dd7-8bc4-37658cb6fc93.png)
@@ -583,7 +587,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 31. 
+### Ejercicio 13.
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197483811-31f1c1c8-3223-41b1-a71a-02bd0ecb54dc.png)
@@ -596,7 +600,7 @@ P_A; C_R.
 #### 1.5 Salidas.
 #### 1.6 Codigo.
 
-### Ejercicio 32. 
+### Ejercicio 14.
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![image](https://user-images.githubusercontent.com/113395327/197483869-000b9f97-54a5-4fa8-b514-fc84528984c0.png)
