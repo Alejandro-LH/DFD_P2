@@ -846,7 +846,7 @@ void main() {
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![8 (For)](https://user-images.githubusercontent.com/113395327/197688541-2d6416ea-fe06-41cf-b2b4-55418564b7e8.png)
+![8 (For)](https://user-images.githubusercontent.com/113395327/197914434-cfcf8158-0d95-4797-8c17-6392a8d79540.png)
 #### 1.3 Prueba de escritorio.
 
 #### 1.4 Entradas.
@@ -919,7 +919,7 @@ else:
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![8 (While)](https://user-images.githubusercontent.com/113395327/197688584-5ca91bc8-9620-431c-a661-81d7ff09acbb.png)
+![8 (While)](https://user-images.githubusercontent.com/113395327/197914455-c186bc82-343b-4b35-a0ca-8d66802fa435.png)
 #### 1.3 Prueba de escritorio.
 
 #### 1.4 Entradas.
@@ -973,7 +973,7 @@ else:
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197688603-78d031c0-5bca-476a-830a-75663f4353c6.png)
+![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197914479-957767f9-40ae-4220-96db-7f0a6b1e36e8.png)
 #### 1.3 Prueba de escritorio.
 
 #### 1.4 Entradas.
