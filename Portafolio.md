@@ -848,11 +848,11 @@ void main() {
 #### 1.2 DFD
 ![8 (For)](https://user-images.githubusercontent.com/113395327/197920332-c5329f71-9dc0-4195-a2d6-da9cbe6a593a.png)
 #### 1.3 Prueba de escritorio.
-|LI|LI>0|LS|LS>LI|N|N>0|i|i<N|Num|Num>0|Num>LI|Num<=LS1|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|i+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
+|LI|LI=>0|LS|LS>LI|N|N>0|i|i<N|Num|Num>0|Num>LI|Num<=LS1|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|i+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |LI|LI>0|LS|LS>LI|N|N>0|C_N|C_N<N|Num|Num>0|Num>LI|Num<=LS|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|C_N+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|1|1>0|8|8>1|6|6>0|0|0<6|4|4>0|4>1|4<=8|4%2==0|0+4|0+1|||0+1||||
+|1|1>0|8|8=>1|6|6>0|0|0<6|4|4>0|4>1|4<=8|4%2==0|0+4|0+1|||0+1||||
 |||||||1|1<6|7|7>0|7>1|7<=8||||7+0|0+1|1+1||||
 |||||||2|2<6|2|2>0|2>1|2<=8|2%2==0|4+2|1+1|||2+1||||
 |||||||4|4<6|6|6>0|6>1|6<=8|6%2==0|6+6|2+1|||4+1||||
@@ -931,7 +931,7 @@ else:
 #### 1.2 DFD
 ![8 (While)](https://user-images.githubusercontent.com/113395327/197918101-d3493cab-57e4-488c-8cce-5aade41e44f5.png)
 #### 1.3 Prueba de escritorio.
-|LI|LI>0|LS|LS>LI|N|N>0|C_N|C_N<N|Num|Num>0|Num>LI|Num<=LS|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|C_N+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
+|LI|LI>0|LS|LS=>LI|N|N=>0|C_N|C_N<N|Num|Num>0|Num>LI|Num<=LS|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|C_N+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |1|1>0|8|8>1|6|6>0|0|0<6|4|4>0|4>1|4<=8|4%2==0|0+4|0+1|||0+1||||
 |||||||1|1<6|7|7>0|7>1|7<=8||||7+0|0+1|1+1||||
