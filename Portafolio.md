@@ -846,9 +846,9 @@ void main() {
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![8 (For)](https://user-images.githubusercontent.com/113395327/197914434-cfcf8158-0d95-4797-8c17-6392a8d79540.png)
+![8 (For)](https://user-images.githubusercontent.com/113395327/197918085-3587acb6-2a68-4bf6-828c-201f634ee8b5.png)
 #### 1.3 Prueba de escritorio.
-
+|LI|LI>0|LS>LI|
 #### 1.4 Entradas.
 
 #### 1.5 Salidas.
@@ -919,7 +919,7 @@ else:
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![8 (While)](https://user-images.githubusercontent.com/113395327/197914455-c186bc82-343b-4b35-a0ca-8d66802fa435.png)
+![8 (While)](https://user-images.githubusercontent.com/113395327/197918101-d3493cab-57e4-488c-8cce-5aade41e44f5.png)
 #### 1.3 Prueba de escritorio.
 
 #### 1.4 Entradas.
@@ -973,7 +973,7 @@ else:
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197914479-957767f9-40ae-4220-96db-7f0a6b1e36e8.png)
+![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197918114-d00d3c36-387b-4d12-99dd-1259367b1bf0.png)
 #### 1.3 Prueba de escritorio.
 
 #### 1.4 Entradas.
@@ -1258,7 +1258,18 @@ Al tamaño del array sera de 10, validaremos el numero de la tabla, en una condi
 #### 1.2 DFD
 ![13](https://user-images.githubusercontent.com/113395327/197684095-af2797a3-870a-44fe-a951-5756dbb6a704.png)
 #### 1.3 Prueba de escritorio 
-
+|n|n>0|i|i<=9|A[i]= n * i|i+1|
+|-|-|-|-|-|-|
+|5|5>0|0|0<=9|A[0]= 5 * 0|0+1|
+|2|2>0|1|1<=9|A[1]= 2 * 1|1+1|
+|4|4>0|2|2<=9|A[2]= 4 * 2|2+1|
+|9|9>0|3|3<=9|A[3]= 9 * 3|3+1|
+|8|8>0|4|4<=9|A[4]= 8 * 4|4+1|
+|3|3>0|5|5<=9|A[5]= 3 * 5|5+1|
+|8|8>0|6|6<=9|A[6]= 8 * 6|6+1|
+|6|6>0|7|7<=9|A[7]= 6 * 7|7+1|
+|4|4>0|8|8<=9|A[8]= 4 * 8|8+1|
+|3|3>0|9|9<=9|A[9]= 3 * 9|9+1|
 #### 1.4 Entradas.
 n.
 #### 1.5 Salidas.
