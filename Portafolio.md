@@ -849,6 +849,7 @@ void main() {
 ![8 (For)](https://user-images.githubusercontent.com/113395327/197918085-3587acb6-2a68-4bf6-828c-201f634ee8b5.png)
 #### 1.3 Prueba de escritorio.
 |LI|LI>0|LS>LI|N|N>0|i|i<N|Num>0|Num>LI|Num<=LS1|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 #### 1.4 Entradas.
 
 #### 1.5 Salidas.
