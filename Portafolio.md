@@ -846,10 +846,10 @@ void main() {
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
-![8 (For)](https://user-images.githubusercontent.com/113395327/197918085-3587acb6-2a68-4bf6-828c-201f634ee8b5.png)
+![8 (For)](https://user-images.githubusercontent.com/113395327/197920332-c5329f71-9dc0-4195-a2d6-da9cbe6a593a.png)
 #### 1.3 Prueba de escritorio.
-|LI|LI>0|LS>LI|N|N>0|i|i<N|Num>0|Num>LI|Num<=LS1|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|LI|LI>0|LS|LS>LI|N|N>0|i|i<N|Num|Num>0|Num>LI|Num<=LS1|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|i+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 #### 1.4 Entradas.
 
 #### 1.5 Salidas.
@@ -922,11 +922,18 @@ else:
 #### 1.2 DFD
 ![8 (While)](https://user-images.githubusercontent.com/113395327/197918101-d3493cab-57e4-488c-8cce-5aade41e44f5.png)
 #### 1.3 Prueba de escritorio.
-
+|LI|LI>0|LS|LS>LI|N|N>0|C_N|C_N<N|Num|Num>0|Num>LI|Num<=LS|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|C_N+1|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|1|1>0|8|8>1|6|6>0|0|0<6|4|4>0|4>1|4<=8|4%2==0|0+4|0+1|||0+1||||
+|||||||1|1<6|3|3>0|3>1|3<=8||||0+3|0+1|1+1||||
+|||||||2|2<6|4|4>0|4>1|4<=8|4%2==0|0+4|0+1|||2+1||||
+|||||||3|3<6|3|3>0|3>1|3<=8||||0+3|0+1|3+1||||
+|||||||4|4<6|4|4>0|4>1|4<=8|4%2==0|0+4|01||4+1|||
+|||||||5|5<6|3|3>0|3>1|3<=8||||0+3|0+1|5+1||||
 #### 1.4 Entradas.
-
+LI;LS;C_N;P_P;S_P;C_P;P_I;S_I;C_I;N;Num.
 #### 1.5 Salidas.
-
+P_P "Es mayor"; P_I "Es mayor".
 #### 1.6 Codigo.
 ```py
 print("Dame Límite inferior: ")
@@ -976,11 +983,17 @@ else:
 #### 1.2 DFD
 ![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197918114-d00d3c36-387b-4d12-99dd-1259367b1bf0.png)
 #### 1.3 Prueba de escritorio.
-
+|LI|LI>0|LS|LS>LI|N|N>0|C_N|Num|Num>0|Num>LI|Num<=LS1|Num%2==0|S_P= S_P+Num|C_P=C_P+1|S_I=S_I+Num|C_I=C_I+1|C_N+1|C_N<=N|P_P=S_P/C_P|P_I=S_I/C_I|P_P>P_I|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|2|2>0|9|9>2|5|5>0|0|8|8>0|8>2|8<=9|8%2==0|0+8|0+1|||0+1|0<5||||
+|||||||1|2|2>0|2>2|2<=9|2%2==0|8+2|1+1|||1+1|1<5||||
+|||||||2|7|7>0|7>2|7<=9||||0+7|0+1|2+1|2<5||||
+|||||||3|5|5>0|5>2|5<=9||||7+5|1+1|3+1|3<5||||
+|||||||4|6|6>0|6>2|6<=9|6%2==0|10+6|4+1|||4+1||P_I=12/2|P_P=16/3|6>5.3|
 #### 1.4 Entradas.
-
+LI;LS;C_N;P_P;S_P;C_P;P_I;S_I;C_I;N;Num.
 #### 1.5 Salidas.
-
+P_P "Es mayor"; P_I "Es mayor".
 #### 1.6 Codigo.
 ```dart
 import 'dart:io';
