@@ -721,6 +721,7 @@ print("El total de reprobados fueron >> ",(len(alumnos)-j))
 ```
 ### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (WHILE)
 #### 1.1 Analisis. 
+Sumar las calificaiones de los alumnos aprobados y sacarles el promedio, despues contar la cantidad de reprobados mayores a 5.
 #### 1.2 DFD
 ![7 (While)](https://user-images.githubusercontent.com/113395327/197688455-e00cb974-0a95-45e3-9181-aef805bd31be.png)
 #### 1.3 Prueba de escritorio 
@@ -772,7 +773,8 @@ print("El total de aprobados fueron >> ",j)
 print("El total de reprobados fueron >> ",(len(alumnos)-j))
 ```
 ### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (DO-WHILE)
-#### 1.1 Analisis. Vamos a definir las variables de limites, 
+#### 1.1 Analisis. 
+Vamos a definir las variables de limites, 
 #### 1.2 DFD
 ![7 (Do-While)](https://user-images.githubusercontent.com/113395327/197688485-7cbe452b-ac52-43d2-9b69-d36af9fc360f.png)
 #### 1.3 Prueba de escritorio 
@@ -852,7 +854,68 @@ void main() {
 #### 1.5 Salidas.
 
 #### 1.6 Codigo.
+```py
+sp=0
+cp=0
+pp=0
+si=0
+ci=0
+pi=0
+li=-1
+ls=-1
+n=-1
+num=-1
 
+while(li<0):
+    li = int(input("Limite inferior: "))
+    
+    if(li<0):
+        print("Tiene que ser mayor a 0")
+        
+while(ls<li):
+    ls = int(input("Limite superior: "))
+    
+    if(ls<li):
+        print("Tiene que ser mayor que el limite inferior")
+        
+while(n<0):
+    n = int(input("¿Cuantos numeros? "))
+    
+    if(n<0):
+        print("Tiene que ser mayor a 0")
+    
+for i in range(n): 
+    while(num<=li or num>=ls):
+        num = int(input("Dame un numero de LI y LS: "))
+        
+        if(num<=li or num>=ls):
+            print("Tiene que estar dentro del LI al LS")
+
+    if(num%2==0):
+        sp=sp+num
+        cp=cp+1
+    else:
+        si=si+num
+        ci=ci+1
+        
+    num=-1       
+         
+if(sp==0 or cp==0):
+    pp=0
+else:
+    pp=sp/cp
+    
+if(si==0 or ci==0):
+    pi=0
+else:
+    pi=si/ci
+    
+if(pp>pi):
+    print("El PP es mayor que el PI")
+else:
+    print("El PI es mayor que el PP")
+    
+```
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
@@ -864,7 +927,49 @@ void main() {
 #### 1.5 Salidas.
 
 #### 1.6 Codigo.
+```py
+print("Dame Límite inferior: ")
+Li = int(input())
+while Li<0:
+    print("El límite inferior debe ser mayor a 0")
+    print("Dame Límite inferior: ")
+    Li = int(input())
 
+print("Dame límite superior: ")
+Ls = int(input())
+while Ls<=Li:
+    print("El límite superior no puede ser menor o igual al limite inferior")
+    print("Dame límite superior: ")
+    Ls = int(input())
+
+pares = 0
+impares = 0
+
+lista=[]
+for x in range(10):
+    valor=int(input("Ingrese un valor entero: "))
+    lista.append(valor)
+print(lista)
+
+for a in lista:
+    if a % 2 == 0:
+        pares = pares + a
+    else:
+        impares = impares + a
+print("La suma de los números pares es: ",pares)
+print("La suma de los números impares es: ",impares)
+
+prom_pares = pares / a
+prom_impares = impares / a
+
+print("El promedio de los números pares es: ",prom_pares)
+print("El promedio de los números impares es: ",prom_impares)
+
+if prom_pares > prom_impares:
+    print("El promedio de los pares es mayor que el promedio de los impares.")
+else:
+    print("El promedio de los números impares es mayor que el promedio de los pares.")
+```
 ### Ejercicio 8. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
@@ -876,7 +981,55 @@ void main() {
 #### 1.5 Salidas.
 
 #### 1.6 Codigo.
+```dart
+import 'dart:io';
 
+void main() {
+  double sumap = 0;
+  double sumai = 0;
+  var contp = 0;
+  var conti = 0;
+  double promp = 0;
+  double promi = 0;
+  print('Introduce el limite inferior, mayor a 0');
+  var li = int.parse(stdin.readLineSync()!);
+  if (li < 0) {
+    print('tu limite inferior debe ser mayor a 0');
+  }
+  if (li > 0) {
+    print('Ahora introduce un limite superior');
+    var ls = int.parse(stdin.readLineSync()!);
+    if (ls < li) {
+      print('tu limite superior debe ser mayor a tu limite inferior');
+    }
+    var cont = li;
+    do {
+      if (cont <= ls) {
+        sumai = sumai + cont;
+        conti = conti + 1;
+      }
+      if (cont % 2 == 0) {
+        sumap = sumap + cont;
+        contp = contp + 1;
+        sumai = sumai - cont;
+        conti = conti - 1;
+      }
+      cont = cont + 1;
+    } while (cont <= ls);
+
+    promi = sumai / conti;
+    print('los impares son $conti y su promedio es $promi');
+    promp = sumap / contp;
+    print('los pares son $contp y su promedio es $promp');
+    if (promp < promi) {
+      print('$promi es mayor');
+    }
+    if (promp > promi) {
+      print('el promedio $promp es mayor');
+    }
+  }
+}
+```
 ### Ejercicio 9.
 #### 1.1 Analisis. 
 #### 1.2 DFD
@@ -888,7 +1041,50 @@ void main() {
 #### 1.5 Salidas.
 
 #### 1.6 Codigo.
+```py
+Calificaciones=int(input("Ingrese la cantidad de calificaciones"))
+vec=[]
+n=0
 
+for i in range(1,Calificaciones+1):
+    calificacion=int(input("Calificacion: "))
+    n=n+calificacion
+    vec.append(calificacion)
+
+promedio=n/len(vec)
+
+npromedio=0
+for j in vec:
+    if j>promedio:
+        npromedio=npromedio+1
+
+aprobado=0
+
+#Primero inicializas el contador
+promedioAprobados = 0
+for h in vec:
+    if h>5:
+        aprobado=aprobado+1
+        #Va sumando cada unas de las notas
+        promedioAprobados = promedioAprobados + h
+
+#Luego saca el promedio sumatoria / cantidad de aprobados 
+promedioAprobados = promedioAprobados / aprobado
+
+reprobado=0
+for k in vec:
+    if k<5:
+        reprobado=reprobado+1
+
+print("Max Calificacion", max(vec))
+print("Min calificacion", min(vec))
+print("Promedio:", promedio)
+print("Superiores a promedio:", npromedio)
+print("Cantidad de aprobados:", aprobado)
+print("Promedio de aprobados:", promedioAprobados)
+print("Desaprobados:", reprobado)
+
+```
 ### Ejercicio 9. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
@@ -900,7 +1096,50 @@ void main() {
 #### 1.5 Salidas.
 
 #### 1.6 Codigo.
+```py
+Calificaciones=int(input("Ingrese la cantidad de calificaciones"))
+vec=[]
+n=0
+cont = 0
+while(cont < Calificaciones):
+    calificacion=int(input("Calificacion: "))
+    n=n+calificacion
+    vec.append(calificacion)
+    cont += 1
 
+promedio=n/len(vec)
+
+npromedio=0
+for j in vec:
+    if j>promedio:
+        npromedio=npromedio+1
+
+aprobado=0
+
+#Primero inicializas el contador
+promedioAprobados = 0
+for h in vec:
+    if h>5:
+        aprobado=aprobado+1
+        #Va sumando cada unas de las notas
+        promedioAprobados = promedioAprobados + h
+
+#Luego saca el promedio sumatoria / cantidad de aprobados 
+promedioAprobados = promedioAprobados / aprobado
+
+reprobado=0
+for k in vec:
+    if k<5:
+        reprobado=reprobado+1
+
+print("Max Calificacion", max(vec))
+print("Min calificacion", min(vec))
+print("Promedio:", promedio)
+print("Superiores a promedio:", npromedio)
+print("Cantidad de aprobados:", aprobado)
+print("Promedio de aprobados:", promedioAprobados)
+print("Desaprobados:", reprobado)
+```
 ### Ejercicio 9.
 #### 1.1 Analisis. 
 #### 1.2 DFD
@@ -912,7 +1151,39 @@ void main() {
 #### 1.5 Salidas.
 
 #### 1.6 Codigo.
+```py
+Calificaciones=int(input("Ingrese la cantidad de calificaciones"))
+vec=[]
+n=0
 
+cont = 0
+while(True):
+    calificacion=int(input("Calificacion: "))
+    n=n+calificacion
+    vec.append(calificacion)
+    cont += 1
+    if(cont>=Calificaciones):
+        break;
+        
+aprobado=0
+
+promedioAprobados = 0
+for h in vec:
+    if h>=5:
+        aprobado=aprobado+1
+        promedioAprobados = promedioAprobados + h
+
+promedioAprobados = promedioAprobados / aprobado
+
+reprobado=0
+for k in vec:
+    if k<=5:
+        reprobado=reprobado+1
+
+print("Cantidad de aprobados:", aprobado)
+print("Cantidad de reprobados:", reprobado)
+print("Promedio de aprobados:", promedioAprobados)
+```
 ### Ejercicio 10. 
 #### 1.1 Analisis. 
 #### 1.2 DFD
@@ -924,31 +1195,88 @@ void main() {
 #### 1.5 Salidas.
 
 #### 1.6 Codigo.
+```py
+lista = [10]
+cant = int(input("¿Cuantos numeros desea capturar?"))
+i=1
+while i <= cant:
+    n = int(input(f"{i} Ingrese un numero: "))
+    lista.append(n)
+    i+=1
 
+print("Numero mayor es ",max(lista))
+print("Numero menor es ",min(lista))
+```
 ### Ejercicio 11.
 #### 1.1 Analisis. 
 #### 1.2 DFD
 ![12](https://user-images.githubusercontent.com/113395327/197684202-afbcfb05-e77c-4657-97aa-c9c7c5377989.png)
 #### 1.3 Prueba de escritorio 
-
+|n|Mayor|i|Mayor>d[i]|mayor=d[i]|
+|-|-|-|-|-|
+|5|0|0|0>5|5|
+|1|5|1|5>1||
 #### 1.4 Entradas.
-
+n.
 #### 1.5 Salidas.
-
+Mayor.
 #### 1.6 Codigo.
+```dart
+import 'dart:io';
+import 'dart:core';
 
+void main() {
+  var Re = 0;
+  var mayor = 0;
+  stdout.write('Ingresa tus numeros \n');
+  var lista = List.filled(10, 0);
+  for (var i = 0; i <= 9; i++) {
+    int Entrada = int.parse(stdin.readLineSync()!);
+    lista[i] = Entrada;
+  }
+  var diferencias = List.filled(9, 0);
+  for (var j = 0; j <= 8; j++) {
+    diferencias[j] = (lista[j] - lista[j + 1]);
+  }
+  mayor = diferencias[0];
+  for (var k = 0; k <= 8; k++) {
+    if (mayor < diferencias[k]) {
+      mayor = diferencias[k];
+    } else {}
+  }
+  stdout.write("Tu lista es ");
+  print(lista);
+  stdout.write("y sus diferencias son ");
+  print(diferencias);
+  print('La diferencia mayor es ');
+  print(mayor);
+}
+```
 ### Ejercicio 12. Almacene en un vector el resultado de una tabla (10 numeros)
-#### 1.1 Analisis. Al tamaño del array sera de 10, validaremos el numero de la tabla, en un  
+#### 1.1 Analisis. 
+Al tamaño del array sera de 10, validaremos el numero de la tabla, en una condición de termino.
 #### 1.2 DFD
 ![13](https://user-images.githubusercontent.com/113395327/197684095-af2797a3-870a-44fe-a951-5756dbb6a704.png)
 #### 1.3 Prueba de escritorio 
 
 #### 1.4 Entradas.
-
+n.
 #### 1.5 Salidas.
-
+Mayor.
 #### 1.6 Codigo.
+```dart
+import 'dart:io';
 
+void main(List<String> args) {
+  var array = [];
+  int n = int.parse(stdin.readLineSync()!);
+  for (var i = 0; i < 11; i++) {
+    array.add(i);
+    array[i] = n * i;
+  }
+  print('$array');
+}
+```
 ### Ejercicio 13. Escriba un dfd que escriba el siguiente dibujo.
 #### 1.1 Analisis. desarrollar el siguiente diagrama de flujo.
 #### 1.2 DFD
@@ -962,11 +1290,11 @@ void main() {
 |3|3<=5|3+1|1|1<=3|3+1| * |
 |||||2<=3|| * |
 |||||3<=3|| * |
-|3|4<=5|3+1|1|1<=4|3+1| * |
+|3|4<=5|3+1|1|1<=4|4+1| * |
 |||||2<=4|| * |
 |||||3<=4|| * |
 |||||3<=4|| * |
-|3|5<=5|3+1|1|1<=5|3+1| * |
+|3|5<=5|3+1|1|1<=5|5+1| * |
 |||||2<=5|| * |
 |||||3<=5|| * |
 |||||3<=5|| * |
@@ -976,3 +1304,16 @@ No tiene ninguna entrada.
 #### 1.5 Salidas.
 *
 #### 1.6 Codigo.
+```dart
+import 'dart:io';
+
+void main() {
+  var n = 5;
+  for (var i = 1; i <= 5; i++) {
+    for (var j = 1; j <= i; j++) {
+      stdout.write('*');
+    }
+    print('');
+  }
+}
+```
