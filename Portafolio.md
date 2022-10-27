@@ -1,8 +1,8 @@
 # Presentacion 
 ## Problemas resueltos en clase con DFD
 ### Ejercicio 1. Contar del 1 hasta el 10 y sumar los valores. (FOR)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis.  
+Almacenaremos en un proceso la variable suma, despues en una condición de termino almacenaremos las veces en las que se sumara hasta llegar a 10.
 #### 1.2 DFD
 ![1 (for)](https://user-images.githubusercontent.com/113395327/197660653-0f384b1e-6c99-4a26-8613-03f91649be32.png)
 #### 1.3 Prueba de escritorio
@@ -33,8 +33,8 @@ No tiene ninguna entrada.
 }
 ```
 ### Ejercicio 1. Contar del 1 hasta el 10 y sumar los valores. (WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+En un proceso almacenaremos las variables de contador y suma y en una condición controlaremos las veces en las que se deverá contar hasta el numero 10.
 #### 1.2 DFD
 ![1 (While)](https://user-images.githubusercontent.com/113395327/197660681-49bfc8f7-5ed8-49f0-988d-490046d78f77.png)
 #### 1.3 Prueba de escritorio 
@@ -67,8 +67,8 @@ void main(List<String> args) {
 }
 ```                
 ### Ejercicio 1. Contar del 1 hasta el 10 y sumar los valores. (DO-WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+Almacenaremos las variables contar y suma en un proceso y tambien se devera contar hasta llegar a 10 a través de una condicion.
 #### 1.2 DFD
 ![1 (Do-While)](https://user-images.githubusercontent.com/113395327/197660698-c39d7d57-68ec-4d22-b9dc-0f7546518bfd.png)
 #### 1.3 Prueba de escritorio 
@@ -101,8 +101,8 @@ void main(List<String> args) {
 }
 ```
 ### Ejercicio 2. Obtenga la suma de los primeros 5 numeros pares. (FOR)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+En una condición de termino se almacenaran las veces en las que un numero par se almacena y en un proceso se sacara la suma de los pares.
 #### 1.2 DFD
 ![2 (for)](https://user-images.githubusercontent.com/113395327/197660736-9a97e4f3-b28f-404a-9f6d-fd035279e3b0.png)
 #### 1.3 Prueba de escritorio 
@@ -128,8 +128,8 @@ void main(List<String> args) {
 }
 ```
 ### Ejercicio 2. Obtenga la suma de los primeros 5 numeros pares. (WHILE)
-#### 1.1 Analisis.
-
+#### 1.1 Análisis. 
+En proceso se guardan las dos variables de suma y contador, y despúes en una condición validaremos que sean pares y en un proceso se deberán sumar.
 #### 1.2 DFD
 ![2 (While)](https://user-images.githubusercontent.com/113395327/197660764-11511194-e0b1-4a00-aae3-68b54143865d.png)
 #### 1.3 Prueba de escritorio 
@@ -156,8 +156,8 @@ void main(List<String> args) {
 }
 ```
 ### Ejercicio 2. Obtenga la suma de los primeros 5 numeros pares. (DO-WHILE)
-#### 1.1 Analisis.
-
+#### 1.1 Análisis. 
+al igual se devera almacenar las variables y verificar si estas son pares y sumarlos a través de un proceso.
 #### 1.2 DFD
 ![2 (Do-While)](https://user-images.githubusercontent.com/113395327/197660837-9c64bda6-9519-44c1-b2ae-735a8ee688c1.png)
 #### 1.3 Prueba de escritorio 
@@ -185,8 +185,8 @@ void main(List<String> args) {
 }
 ```
 ### Ejercicio 3. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (FOR)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+en un proceso se deberá almacenar el array y en una condicion de termino, las veces en las que se podra repetir, y al final en un proceso se indicara el array con su respectivo valor.
 #### 1.2 DFD
 ![3 (for)](https://user-images.githubusercontent.com/113395327/197660869-62d12335-0cbe-471c-87e0-1b17ae9c1cf6.png)
 #### 1.3 Prueba de escritorio 
@@ -225,8 +225,8 @@ void main() {
 }
 ```
 ### Ejercicio 3. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+A través de un proceso se indicara las veces a las que pasa el número y se va almacenando en cada espacio del array.
 #### 1.2 DFD
 ![3 (While)](https://user-images.githubusercontent.com/113395327/197660901-d4ae6f43-b708-4ab3-9157-f1160f8b80af.png)
 #### 1.3 Prueba de escritorio 
@@ -267,8 +267,8 @@ void main() {
 }
 ```
 ### Ejercicio 3. Almacene en un array el numero n leido del teclado, el tamaño del array es de 10. (DO-WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+Almacenaremos un número en un array, cubriendo todos los espacios hasta llegar al limite a través de condiciones y procesos.
 #### 1.2 DFD
 ![3 (Do-While)](https://user-images.githubusercontent.com/113395327/197660916-b013d497-3144-4e52-a095-cefebc079a15.png)
 #### 1.3 Prueba de escritorio 
@@ -309,8 +309,8 @@ void main() {
 }
 ```
 ### Ejercicio 4. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (FOR)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+en un proceso se deberá almacenar el array y en una condiciion de termino se contara hasta almacecnar los n numeros en el array.
 #### 1.2 DFD
 ![4 (for)](https://user-images.githubusercontent.com/113395327/197660974-b31154a6-6d29-4622-815a-8f9d47ea0af1.png)
 #### 1.3 Prueba de escritorio 
@@ -350,8 +350,8 @@ void main() {
 }
 ```
 ### Ejercicio 4. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+A través de un proceso se contara y validara las veces en las que se deberá llenar un array con los n números.
 #### 1.2 DFD.
 ![4 (While)](https://user-images.githubusercontent.com/113395327/197661015-dfd2ed45-979d-4fe4-a6bb-a96e2114497e.png)
 #### 1.3 Prueba de escritorio. 
@@ -392,8 +392,8 @@ void main() {
 }
 ```
 ### Ejercicio 4. Almacene los n numeros leidos del teclado en un vector de 10 elementos. (DO-WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+Con un proceso y contador se estarán añadiendo n números en un array, validando que este se llene totalmente a travez de una desición.
 #### 1.2 DFD.
 ![4 (Do-While)](https://user-images.githubusercontent.com/113395327/197661041-c8b0f699-fc49-4158-aa3a-0135523b7921.png)
 #### 1.3 Prueba de escritorio. 
@@ -434,8 +434,8 @@ void main() {
 }
 ```
 ### Ejercicio 5. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (FOR)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+Vamos a almacenar en una desición de terminos, un contador negativo que cuente del 10 al 0.
 #### 1.2 DFD.
 ![5 (for)](https://user-images.githubusercontent.com/113395327/197661066-18a0fe4e-25fa-49df-bd17-369867a17e66.png)
 #### 1.3 Prueba de escritorio. 
@@ -467,8 +467,8 @@ void main() {
 }
 ```
 ### Ejercicio 5. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+En un proceso se tendra la variable contador y con esto se decirá el conteó negativo a través de un proceso de resta para contar deel 10 al 0.
 #### 1.2 DFD.
 ![5 (While)](https://user-images.githubusercontent.com/113395327/197661093-1e30accc-8788-4e69-99fa-6ae602d16809.png)
 #### 1.3 Prueba de escritorio. 
@@ -502,8 +502,8 @@ void main() {
 }
 ```
 ### Ejercicio 5. Almacene un contador negativo en un vector, el conteo es de 10 a 0. (DO-WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+En un proceso se acomulará la variable contador y con una desiicion contaremos las veces en que este cuenta del 10 al 0.
 #### 1.2 DFD.
 ![5 (Do-While)](https://user-images.githubusercontent.com/113395327/197661111-4c8e2d90-88c6-4952-a8f8-ebe2f856e4ad.png)
 #### 1.3 Prueba de escritorio. 
@@ -537,8 +537,8 @@ void main() {
 }
 ```
 ### Ejercicio 6. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (FOR)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+En una desición de termino, almacenar los numeros pares a través de una condición almacenando los numeros en el array.
 #### 1.2 DFD.
 ![image](https://user-images.githubusercontent.com/113395327/197382216-7f05339c-b12f-4d84-9978-8caa04a7534f.png)
 #### 1.3 Prueba de escritorio. 
@@ -581,8 +581,8 @@ print("Contenido de la variable`resultado`:", resultado)
 print("Cantidad de elementos en la lista `resultado`:", len(resultado))
 ```
 ### Ejercicio 6. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+En un contador almacenará los numeros pares a través de una condición almacenando los numeros en el array.
 #### 1.2 DFD.
 ![image](https://user-images.githubusercontent.com/113395327/197382230-a9f1f438-30d8-44c4-9d04-78c41acc7111.png)
 #### 1.3 Prueba de escritorio. 
@@ -626,8 +626,8 @@ print("Contenido de la variable`resultado`:", resultado)
 print("Cantidad de elementos en la lista `resultado`:", len(resultado))
 ```
 ### Ejercicio 6. Almacene en un vector de tamaño 10, todos los numeros pares capturados hasta completar todos. (DO-WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+En un proceso almacenaremos la variabel contador, después vaidaremos si el numero es par o impar, despues de almacena en un spacio del array y asi hasta capturar 10 veces.
 #### 1.2 DFD.
 ![image](https://user-images.githubusercontent.com/113395327/197382249-ea63e694-11ef-47fc-bf5b-5f4173ad7766.png)
 #### 1.3 Prueba de escritorio. 
@@ -667,8 +667,8 @@ void main() {
 }
 ```
 ### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (FOR)
-#### 1.1 Analisis.
-
+#### 1.1 Análisis. 
+Se necesita obtener el promedio de 15 calificaiones, donde validaremos que las calificaciones esten dentro del rango, y con un contador para reprobados y aprobados, asi como una variable de suma para ambos, al final se sacara el promedio de las calificaiones aprobatorias, y el total de reprobados. 
 #### 1.2 DFD.
 ![7 (for)](https://user-images.githubusercontent.com/113395327/197688395-c0923fad-0ca5-4de4-82d6-1bab7203d080.png)
 #### 1.3 Prueba de escritorio.
@@ -720,8 +720,8 @@ print("El total de aprobados fueron >> ",j)
 print("El total de reprobados fueron >> ",(len(alumnos)-j))
 ```
 ### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+Se tendra que tener en cuenta que apra poder regristrar el numero de calificaciones se necesita la variable adicional de contador, y asiii validar a través de una condición y sacar el pormedio de los reprobados y el total de los reprobados. 
 #### 1.2 DFD.
 ![7 (While)](https://user-images.githubusercontent.com/113395327/197688455-e00cb974-0a95-45e3-9181-aef805bd31be.png)
 #### 1.3 Prueba de escritorio. 
@@ -773,8 +773,8 @@ print("El total de aprobados fueron >> ",j)
 print("El total de reprobados fueron >> ",(len(alumnos)-j))
 ```
 ### Ejercicio 7. Obtener el promedio de las calificaciones aprobatorias y la cantidad de alumnos reprobados. La calificación entre 0 y 10 y el maximo de alumnos es de 15. (DO-WHILE)
-#### 1.1 Analisis. 
-
+#### 1.1 Análisis. 
+A diferencia de este, la condición para verificar si el contador es igual a las calificaciones de los 15 estudiantes esta al finial del todo despues de un contador que va sumando las veces que se va registrando una calificaión, al final se tendra que imprimir el promedio de los aprobados y el contador de los reporbados. 
 #### 1.2 DFD.
 ![7 (Do-While)](https://user-images.githubusercontent.com/113395327/197688485-7cbe452b-ac52-43d2-9b69-d36af9fc360f.png)
 #### 1.3 Prueba de escritorio. 
@@ -843,8 +843,9 @@ void main() {
   print('La cantidad de reprobados son $contr');
 }
 ```
-### Ejercicio 8. 
-#### 1.1 Analisis. 
+### Ejercicio 8. Capturar n números en el rango [LI,LS] donde: LI=limite superior, para (LI<LS) y (LI<0), obtenga la cantidad de números pares y su promedio, la cantidad de numeros impares y su promedio, ¿cuál es el promedio mmayor?.
+#### 1.1 Análisis. 
+
 #### 1.2 DFD.
 ![8 (For)](https://user-images.githubusercontent.com/113395327/197920332-c5329f71-9dc0-4195-a2d6-da9cbe6a593a.png)
 #### 1.3 Prueba de escritorio.
@@ -924,8 +925,8 @@ else:
     print("El PI es mayor que el PP")
     
 ```
-### Ejercicio 8. 
-#### 1.1 Analisis. 
+### Ejercicio 8. Capturar n números en el rango [LI,LS] donde: LI=limite superior, para (LI<LS) y (LI<0), obtenga la cantidad de números pares y su promedio, la cantidad de numeros impares y su promedio, ¿cuál es el promedio mmayor?.
+#### 1.1 Análisis. 
 #### 1.2 DFD.
 ![8 (While)](https://user-images.githubusercontent.com/113395327/197918101-d3493cab-57e4-488c-8cce-5aade41e44f5.png)
 #### 1.3 Prueba de escritorio.
@@ -986,8 +987,8 @@ if prom_pares > prom_impares:
 else:
     print("El promedio de los números impares es mayor que el promedio de los pares.")
 ```
-### Ejercicio 8. 
-#### 1.1 Analisis. 
+### Ejercicio 8. Capturar n números en el rango [LI,LS] donde: LI=limite superior, para (LI<LS) y (LI<0), obtenga la cantidad de números pares y su promedio, la cantidad de numeros impares y su promedio, ¿cuál es el promedio mmayor?.
+#### 1.1 Análisis. 
 #### 1.2 DFD.
 ![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197918114-d00d3c36-387b-4d12-99dd-1259367b1bf0.png)
 #### 1.3 Prueba de escritorio.
@@ -1052,8 +1053,8 @@ void main() {
   }
 }
 ```
-### Ejercicio 9.
-#### 1.1 Analisis. 
+### Ejercicio 9. Obtener la frecuencia de n calificaciones entre 1 y 10, obtener la cantidad de reprobados, la cantidad de aprobados, el promedio de aprobados y el promedio general.
+#### 1.1 Análisis. 
 #### 1.2 DFD.
 ![9 (For)](https://user-images.githubusercontent.com/113395327/197688637-9a00679f-1399-4b3b-8943-94b722e29fac.png)
 #### 1.3 Prueba de escritorio.
@@ -1107,8 +1108,8 @@ print("Promedio de aprobados:", promedioAprobados)
 print("Desaprobados:", reprobado)
 
 ```
-### Ejercicio 9. 
-#### 1.1 Analisis. 
+### Ejercicio 9. Obtener la frecuencia de n calificaciones entre 1 y 10, obtener la cantidad de reprobados, la cantidad de aprobados, el promedio de aprobados y el promedio general.
+#### 1.1 Análisis. 
 #### 1.2 DFD.
 ![9 (While)](https://user-images.githubusercontent.com/113395327/197688668-601d5b47-281d-4231-9cb2-e656611b73b9.png)
 #### 1.3 Prueba de escritorio.
@@ -1162,8 +1163,8 @@ print("Cantidad de aprobados:", aprobado)
 print("Promedio de aprobados:", promedioAprobados)
 print("Desaprobados:", reprobado)
 ```
-### Ejercicio 9.
-#### 1.1 Analisis. 
+### Ejercicio 9. Obtener la frecuencia de n calificaciones entre 1 y 10, obtener la cantidad de reprobados, la cantidad de aprobados, el promedio de aprobados y el promedio general.
+#### 1.1 Análisis. 
 #### 1.2 DFD.
 ![9 (Do-While)](https://user-images.githubusercontent.com/113395327/197688706-f4036b1b-f435-472c-b2ac-520327f67105.png)
 #### 1.3 Prueba de escritorio. 
@@ -1206,8 +1207,9 @@ print("Cantidad de aprobados:", aprobado)
 print("Cantidad de reprobados:", reprobado)
 print("Promedio de aprobados:", promedioAprobados)
 ```
-### Ejercicio 10. 
-#### 1.1 Analisis. 
+### Ejercicio 10. En un DFD, capture 10 numeros enteros y los capture en un número. Sacar el mayor; sacar el menor.
+#### 1.1 Análisis.  
+Se debera obtner el resultado de 
 #### 1.2 DFD.
 ![11](https://user-images.githubusercontent.com/113395327/197684226-87886cc7-470a-4c5f-8a3a-9fa33659f4f4.png)
 #### 1.3 Prueba de escritorio. 
@@ -1229,8 +1231,9 @@ while i <= cant:
 print("Numero mayor es ",max(lista))
 print("Numero menor es ",min(lista))
 ```
-### Ejercicio 11.
-#### 1.1 Analisis. 
+### Ejercicio 11. Obtenga la distancia entre dos números consecutivos en una lista de 10 números.
+#### 1.1 Análisis. 
+Se tratara de en capturar en este caso 10 numeros, 
 #### 1.2 DFD.
 ![12](https://user-images.githubusercontent.com/113395327/197684202-afbcfb05-e77c-4657-97aa-c9c7c5377989.png)
 #### 1.3 Prueba de escritorio. 
@@ -1275,8 +1278,8 @@ void main() {
 }
 ```
 ### Ejercicio 12. Almacene en un vector el resultado de una tabla (10 numeros)
-#### 1.1 Analisis. 
-Al tamaño del array sera de 10, validaremos el numero de la tabla, en una condición de termino.
+#### 1.1 Análisis.  
+Al tamaño del array será de 10, validaremos el numero de la tabla, en una condición de termino almacenaremos los valores hasta llenar el valor del array.
 #### 1.2 DFD.
 ![13](https://user-images.githubusercontent.com/113395327/197684095-af2797a3-870a-44fe-a951-5756dbb6a704.png)
 #### 1.3 Prueba de escritorio. 
@@ -1311,7 +1314,8 @@ void main(List<String> args) {
 }
 ```
 ### Ejercicio 13. Escriba un dfd que escriba el siguiente dibujo.
-#### 1.1 Analisis. desarrollar el siguiente diagrama de flujo.
+#### 1.1 Análisis. 
+desarrollar el siguiente diagrama de flujo.
 #### 1.2 DFD.
 ![14](https://user-images.githubusercontent.com/113395327/197684075-b7439c57-f658-44ec-b8d3-cb3a0f734614.png)
 #### 1.3 Prueba de escritorio. 
