@@ -845,7 +845,7 @@ void main() {
 ```
 ### Ejercicio 8. Capturar n números en el rango [LI,LS] donde: LI=limite superior, para (LI<LS) y (LI<0), obtenga la cantidad de números pares y su promedio, la cantidad de numeros impares y su promedio, ¿cuál es el promedio mmayor?.
 #### 1.1 Análisis. 
-Capturar los límites y verificar que sean positivos, 
+Capturar los límites y verificar que sean positivos, después se pedirá la cantidad de números que se desea poner y se validara que sea mayor a 0, luego se pedira el valor de cada número y se verificará que estos esten dentro de los límites, una ves terminado el ciclo de los números deseados, se sacara el promedio de los positivos y negativos y en una desición se verá cual es el promedio más alto.
 #### 1.2 DFD.
 ![8 (For)](https://user-images.githubusercontent.com/113395327/197920332-c5329f71-9dc0-4195-a2d6-da9cbe6a593a.png)
 #### 1.3 Prueba de escritorio.
@@ -927,6 +927,7 @@ else:
 ```
 ### Ejercicio 8. Capturar n números en el rango [LI,LS] donde: LI=limite superior, para (LI<LS) y (LI<0), obtenga la cantidad de números pares y su promedio, la cantidad de numeros impares y su promedio, ¿cuál es el promedio mmayor?.
 #### 1.1 Análisis. 
+Capturar los límites y verificar que sean positivos, después se pedirá la cantidad de números que se desea poner y se validara que sea mayor a 0 para después pasar por un contador que va a monitorear las veces que pasa el numero hasta completar la cantidad, luego se pedira el valor de cada número y se verificará que estos esten dentro de los límites, una ves terminado el ciclo de los números deseados, se sacara el promedio de los positivos y negativos y en una desición se verá cual es el promedio más alto.
 #### 1.2 DFD.
 ![8 (While)](https://user-images.githubusercontent.com/113395327/197918101-d3493cab-57e4-488c-8cce-5aade41e44f5.png)
 #### 1.3 Prueba de escritorio.
@@ -989,6 +990,7 @@ else:
 ```
 ### Ejercicio 8. Capturar n números en el rango [LI,LS] donde: LI=limite superior, para (LI<LS) y (LI<0), obtenga la cantidad de números pares y su promedio, la cantidad de numeros impares y su promedio, ¿cuál es el promedio mmayor?.
 #### 1.1 Análisis. 
+Capturar los límites y verificar que sean positivos, después se pedirá la cantidad de números que se desea poner y se validara que sea mayor a 0, luego se pedira el valor de cada número y se verificará que estos esten dentro de los límites, una ves terminado el ciclo de los números deseados, almacenandose en un contador hasta llegar al numero deseado, se sacará el promedio de los positivos y negativos y en una desición se verá cual es el promedio más alto.
 #### 1.2 DFD.
 ![8 (Do-While)](https://user-images.githubusercontent.com/113395327/197918114-d00d3c36-387b-4d12-99dd-1259367b1bf0.png)
 #### 1.3 Prueba de escritorio.
@@ -1055,6 +1057,7 @@ void main() {
 ```
 ### Ejercicio 9. Obtener la frecuencia de n calificaciones entre 1 y 10, obtener la cantidad de reprobados, la cantidad de aprobados, el promedio de aprobados y el promedio general.
 #### 1.1 Análisis. 
+Se deberá pedir las calificaciones totales a calificar y verificar que estas sean >0, después se deberá obtener la frecuencia mediante un ciclo, despues las calificaciones menores a 6 estarán reprobados, luego se contará las personas reprobadas y aprobadas, y se carará un promedio mediante el cual se sacara el promedio general a través de un proceso.
 #### 1.2 DFD.
 ![9 (For)](https://user-images.githubusercontent.com/113395327/197688637-9a00679f-1399-4b3b-8943-94b722e29fac.png)
 #### 1.3 Prueba de escritorio.
@@ -1123,6 +1126,7 @@ print("Desaprobados:", reprobado)
 ```
 ### Ejercicio 9. Obtener la frecuencia de n calificaciones entre 1 y 10, obtener la cantidad de reprobados, la cantidad de aprobados, el promedio de aprobados y el promedio general.
 #### 1.1 Análisis. 
+Se deberá pedir las calificaciones totales a calificar y verificar que estas sean >0, después se deberá obtener la frecuencia mediante un ciclo, despues las calificaciones menores a 6 estarán reprobados, luego se contará las personas reprobadas y aprobadas, y se carará un promedio mediante el cual se sacara el promedio general a través de un proceso.
 #### 1.2 DFD.
 ![9 (While)](https://user-images.githubusercontent.com/113395327/197688668-601d5b47-281d-4231-9cb2-e656611b73b9.png)
 #### 1.3 Prueba de escritorio.
@@ -1191,6 +1195,7 @@ print("Desaprobados:", reprobado)
 ```
 ### Ejercicio 9. Obtener la frecuencia de n calificaciones entre 1 y 10, obtener la cantidad de reprobados, la cantidad de aprobados, el promedio de aprobados y el promedio general.
 #### 1.1 Análisis. 
+Se deberá pedir las calificaciones totales a calificar y verificar que estas sean >0, después se deberá obtener la frecuencia mediante un ciclo, despues las calificaciones menores a 6 estarán reprobados, luego se contará las personas reprobadas y aprobadas, y se carará un promedio mediante el cual se sacara el promedio general a través de un proceso.
 #### 1.2 DFD.
 ![9 (Do-While)](https://user-images.githubusercontent.com/113395327/197688706-f4036b1b-f435-472c-b2ac-520327f67105.png)
 #### 1.3 Prueba de escritorio. 
@@ -1247,7 +1252,7 @@ print("Promedio de aprobados:", promedioAprobados)
 ```
 ### Ejercicio 10. En un DFD, capture 10 numeros enteros y los capture en un número. Sacar el mayor; sacar el menor.
 #### 1.1 Análisis.  
-Se debera obtner el resultado de 
+se deverán capturar los 10 números, y mediante un proceso se pedirá el numero y se almacenará en el array, luego tras una condición se sacará el mayor, luego el menor se sacara de la misma forma, solo que ahora el menor sera igual al mayor por ser el mas alto y asi se sacará el menor.
 #### 1.2 DFD.
 ![11](https://user-images.githubusercontent.com/113395327/197684226-87886cc7-470a-4c5f-8a3a-9fa33659f4f4.png)
 #### 1.3 Prueba de escritorio. 
@@ -1282,7 +1287,7 @@ print("Numero menor es ",min(lista))
 ```
 ### Ejercicio 11. Obtenga la distancia entre dos números consecutivos en una lista de 10 números.
 #### 1.1 Análisis. 
-Se tratara de en capturar en este caso 10 numeros, 
+Se tratara de en capturar en este caso 10 números, después en un ciclo se almacenarán los numero de los 10 espacios, luego en otro ciclo se validara que la variable RE se almacene en otro array, al final en otra condición se sacara la distacia total del los numeros consecutivos.
 #### 1.2 DFD.
 ![12](https://user-images.githubusercontent.com/113395327/197684202-afbcfb05-e77c-4657-97aa-c9c7c5377989.png)
 #### 1.3 Prueba de escritorio. 
